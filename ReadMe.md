@@ -18,7 +18,7 @@ You can run this code to produce spike times:
 
     python3 MAT.py <input_current> alpha1 alpha2 omega
 
-where <input_current> is the file of the input current, alpha1 and alpha2 are the weights of the time constraints and omega is the resting value.
+where <input_current> is the file of the input current, alpha1 and alpha2 are the weights of the time constraints and omega is the resting value. The sampling interval of the input current is fixed at 0.1 ms.
 
 Typical parameters for RS, IB, FS and CH neurons are as follows:
 - RS neuron: alpha1 = 30, alpha2 = 2.0, omega = -45
@@ -26,7 +26,7 @@ Typical parameters for RS, IB, FS and CH neurons are as follows:
 - FS neuron: alpha1 = 10, alpha2 = 0.2, omega = -55
 - CH neuron: alpha1 = -0.5, alpha2 = 0.4, omega = -39
 
-This directory also has a sample file of the input current: "current_sample.txt". The sampling interval is fixed at 0.1 ms.
+This directory also has a sample file of the input current: "current_sample.txt".
 
 For example, you can get the same result  as the case of the RS neuron of Figure 5B in [*Kobayashi, Tsubo and Shinomoto (2009)*](https://www.frontiersin.org/articles/10.3389/neuro.10.009.2009/full):
 
