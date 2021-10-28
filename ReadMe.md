@@ -43,4 +43,4 @@ This project is licensed under the terms of the MIT license.
 Please contact [Ryota Kobayashi](http://research.nii.ac.jp/~r-koba/en/contact.html) if you want to use the code for commercial purposes.
 
 ## The program was developed by
-Ryota Kobayashi and Yuichiro Marui
+Yuichiro Marui
