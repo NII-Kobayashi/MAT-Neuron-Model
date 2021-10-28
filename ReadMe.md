@@ -32,7 +32,7 @@ For example, you can get the same result  as the case of the RS neuron of Figure
 
     python3 MAT.py current_sample.txt 30 2.0 -45
 
-After running the code, you will obtain two output files: "spiketime.txt", "voltage.txt", "spike.png" and "spike.eps".
+After running the code, you will obtain four output files: "spiketime.txt", "voltage.txt", "spike.png" and "spike.eps".
 - spiketime.txt: time [ms], model potential [mV]
 - voltage.txt: spike time [ms]
 - spike.png and spike.eps: figures of spikes
